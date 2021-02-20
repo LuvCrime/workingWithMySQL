@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    min-width: 330px;
+    max-width: 330px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(247, 244, 244);
+}
+
+nav {
+    margin-top: 20px;
+}
+
+.page-link {
+    color: black;
+}

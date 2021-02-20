@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <table class="data">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Value 1</th>
+            <th>Value 2</th>
+            <th>Value 3</th>
+          </tr>
+    </table>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#" data-page="prew">&lt;</a></li>
+          <li class="page-item"><a class="page-link" href="#" data-page="1">1</a></li>
+          <li class="page-item"><a class="page-link" href="#" data-page="2">2</a></li>
+          <li class="page-item"><a class="page-link" href="#" data-page="3">3</a></li>
+          <li class="page-item"><a class="page-link" href="#" data-page="next">&gt;</a></li>
+        </ul>
+      </nav>
+    <template class="template">
+        <tr class="tr-template">
+            <td class="id"></td>
+            <td class="name"></td>
+            <td class="val1"></td>
+            <td class="val2"></td>
+            <td class="val3"></td>
+        </tr>
+    </template>
+    <script src="addDataToHtml.js"></script>
+</body>
+</html>
